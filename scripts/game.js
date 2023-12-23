@@ -433,12 +433,12 @@ const but2 = document.querySelector(".button2") // כפתור של התחלת מ
 
 const toGames = (event) => { // חזרה לדף משחקים
     event.preventDefault();
-    window.location.href = "../Pages/games.html";
+    window.location.href = "../pages/games.html";
 }
 
 const newGame = (event) => { // התחלת משחק חדש
     event.preventDefault();
-    window.location.href = "../Pages/game.html";
+    window.location.href = "../pages/game.html";
 }
 
 but1.addEventListener("click", toGames); //הוסף אירוע לכפתור של חזרה לדף משחקים

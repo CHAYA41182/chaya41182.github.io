@@ -92,7 +92,7 @@ function addInputToBackBoolPgiah() { // פונקציה שמוסיפה לכרטי
 
 buttonG.addEventListener("click", (event) => { // פונקציה שמטפלת בלחיצה על כפתור המעבר למשחק
    event.preventDefault();
-   window.location.href = "../Pages/game.html";
+   window.location.href = "../pages/game.html";
 });
 
 
@@ -105,5 +105,5 @@ const imgLogo=document.querySelector(".imgLogo");
 
 buttonG.addEventListener("click", (event) => { // פונקציה שמטפלת בלחיצה על כפתור המעבר למשחק
    event.preventDefault();
-   window.location.href = "../Pages/game.html";
+   window.location.href = "../pages/game.html";
 });

@@ -107,7 +107,7 @@ const addToLocalStorege=(user)=>
     usersList.push(user) // מוסיף את המשתמש לרשימה של המשתמשים
     localStorage.setItem("users", JSON.stringify(usersList)); // מעדכן את הרשימה של המשתמשים בלוקל סטורג
     sessionStorage.setItem("currentUser",JSON.stringify(user)) // מעדכן את המשתמש הנוכחי בסשן סטורג
-    window.location.href = "../Pages/games.html"; // מעביר לדף משחקים
+    window.location.href = "../pages/games.html"; // מעביר לדף משחקים
 }
 
 
