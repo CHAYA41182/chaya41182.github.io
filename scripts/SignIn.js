@@ -3,7 +3,6 @@
   const ApsbordEl=document.querySelector(".Apsbord"); // תיבת הטקסט של אימות הסיסמה
   const emailEl=document.querySelector(".email"); // תיבת הטקסט של האימייל
   const submitEl = document.querySelector(".register") // כפתור השליחה
-
   const usersList = JSON.parse(localStorage.getItem("users") || "[]"); // רשימת המשתמשים בלוקל סטורג
   const passmes = document.querySelector(".passmes") // הודעת שגיאה של הסיסמה
     const namemes = document.querySelector(".namemes") // הודעת שגיאה של השם משתמש
